@@ -3,6 +3,7 @@ library(datasets)
 library(caret)
 library(rattle)
 library(rpart.plot)
+library(e1071)
 
 shinyUI(fluidPage(
   headerPanel("Iris Dataset Explorator"), 
